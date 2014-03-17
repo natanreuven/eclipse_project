@@ -1,0 +1,6 @@
+body {background-color: red; color:white}
+
+.cell {width:60px; height:80px  }
+.NOT_CLICKED {background-color: gray}
+.CLICKED {background-color: brown }
+.target {background-color: NOT_VALID}
