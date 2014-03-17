@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ <script src="lib/jquery-1.11.0.js"></script>
+  <meta charset="utf-8">
+
+  <title>FastClick</title>
+  <meta name="description" content="The Sokoban Game">
+  <meta name="author" content="PHP Class">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body >
+	<h1>FastClick</h1>
+	player name: <input type="text" id="txt_name" name="Nane" value="default"> <button onclick="setName()">Set Name</button><br>
+	<h1><button onclick="newGame()">New Game</button><button onclick="selectResults()">Show Best Results</button>    </h1>
+	
+
+	<label id="minutes">00</label>:<label id="seconds">00</label>
+	<div>
+		<div class="subHeader">
+  		  
+  		  chosse your lever
+		</div>
+		<div>
+		<input type="radio" name="level" id="level" value="1" checked onclick="checkLevel()" >Easy <input type="radio" id="level1" name="level" value="2" onclick="checkLevel()">Hard
+		</div>
+	</div>
+	
+	<table id="tblBoard"></table>
+	
+	
+	<div> Best Scores
+	<table id="scoreTable" border='1' ></table>
+	</div>
+
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
